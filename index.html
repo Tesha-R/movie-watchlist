@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Movielist</title>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div>
+                <h1 class="branding"><a href="/">Movielist</a></h1>
+            </div>
+            <div>
+                <form id="movie-search-form">
+                    <div class="form-content">
+                        <input type="text" id="movie-search" name="movie-search" placeholder="search for movies" />
+                        <button type="submit" class="btn btn-search">Search</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <p class="link" id="watch-list-btn">My watchlist</p>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <h2 id="page-title" class="title">Find your favorite films</h2>
+    </div>
+    <section id="app" class="container"></section>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
